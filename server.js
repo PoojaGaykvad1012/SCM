@@ -24,6 +24,11 @@ const Emplooye= new mongoose.Schema({
         type:String,
         required:true,
         unique:true
+    },
+    mob:{
+        type:Number,
+        required: true,
+        unique: true
     }
 }
 )
