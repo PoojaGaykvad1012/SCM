@@ -27,8 +27,8 @@ const Emplooye= new mongoose.Schema({
     },
     mob:{
         type:Number,
-        required: true,
-        unique: true
+        required:true,
+        unique:true
     }
 }
 )
@@ -36,6 +36,8 @@ const Emodel=new mongoose.model('emdata',Emplooye)
 app.listen(port,()=>{
     console.log(`server is runing on port ${port}`);
 })
+
+
 
 
 
